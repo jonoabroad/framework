@@ -80,7 +80,7 @@ object Dependencies {
   lazy val specs2Mock  = "org.specs2"        %% "specs2-mock"          % specs2.revision % Test
 
   lazy val scalactic       = "org.scalactic"     %% "scalactic"  % "3.1.2"   % Test
-  lazy val scalatest       = "org.scalatest"     %% "scalatest"  % "3.1.2"   % Test
+  lazy val scalatest       = "org.scalatest"     %% "scalatest"  % "3.1.4"   % Test
   lazy val scalatest_junit = "org.scalatestplus" %% "junit-4-12" % "3.1.2.0" % Test
   lazy val mockito_scalatest = "org.mockito" %% "mockito-scala-scalatest" % "1.14.3" % Test
 
