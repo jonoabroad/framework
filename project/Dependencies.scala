@@ -69,7 +69,7 @@ object Dependencies {
   // Scope available only in test classpath, non-transitive by default.
   lazy val jetty6     = "org.mortbay.jetty"        % "jetty"                    % "6.1.26"   % Test
   lazy val jwebunit   = "net.sourceforge.jwebunit" % "jwebunit-htmlunit-plugin" % "2.5"      % Test
-  lazy val derby      = "org.apache.derby"         % "derby"                    % "10.7.1.1" % Test
+  lazy val derby      = "org.apache.derby"         % "derby"                    % "10.17.1.0" % Test
   lazy val h2database = "com.h2database"           % "h2"                       % "1.2.147"  % Test
 
   lazy val specs2      = "org.specs2"        %% "specs2-core"          % "4.9.4"         % Test
