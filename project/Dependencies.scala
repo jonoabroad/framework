@@ -61,7 +61,7 @@ object Dependencies {
   lazy val persistence_api = "javax.persistence" % "persistence-api"       % "1.0.2"        % Provided
   lazy val servlet_api     = "javax.servlet"     % "javax.servlet-api"     % "3.1.0"        % Provided
   lazy val jquery          = "org.webjars.bower" % "jquery"                % "1.11.3"       % Provided
-  lazy val jasmineCore     = "org.webjars.bower" % "jasmine-core"          % "2.4.1"        % Provided
+  lazy val jasmineCore     = "org.webjars.bower" % "jasmine-core"          % "2.8.0"        % Provided
   lazy val jasmineAjax     = "org.webjars.bower" % "jasmine-ajax"          % "3.2.0"        % Provided
 
 
