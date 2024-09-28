@@ -60,7 +60,7 @@ object Dependencies {
   lazy val slf4j_log4j12   = "org.slf4j"         % "slf4j-log4j12"         % slf4jVersion   % Provided
   lazy val persistence_api = "javax.persistence" % "persistence-api"       % "1.0.2"        % Provided
   lazy val servlet_api     = "javax.servlet"     % "javax.servlet-api"     % "3.1.0"        % Provided
-  lazy val jquery          = "org.webjars.bower" % "jquery"                % "1.11.3"       % Provided
+  lazy val jquery          = "org.webjars.bower" % "jquery"                % "1.12.4"       % Provided
   lazy val jasmineCore     = "org.webjars.bower" % "jasmine-core"          % "2.4.1"        % Provided
   lazy val jasmineAjax     = "org.webjars.bower" % "jasmine-ajax"          % "3.2.0"        % Provided
 
