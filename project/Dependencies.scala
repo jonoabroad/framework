@@ -55,7 +55,7 @@ object Dependencies {
 
   // Provided scope:
   // Scope provided by container, available only in compile and test classpath, non-transitive by default.
-  lazy val logback         = "ch.qos.logback"    % "logback-classic"       % "1.2.3"        % Provided
+  lazy val logback         = "ch.qos.logback"    % "logback-classic"       % "1.2.13"        % Provided
   lazy val log4j           = "log4j"             % "log4j"                 % "1.2.17"       % Provided
   lazy val slf4j_log4j12   = "org.slf4j"         % "slf4j-log4j12"         % slf4jVersion   % Provided
   lazy val persistence_api = "javax.persistence" % "persistence-api"       % "1.0.2"        % Provided
