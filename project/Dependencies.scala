@@ -46,7 +46,7 @@ object Dependencies {
   lazy val scala_parallel_collections =  "org.scala-lang.modules" %% "scala-parallel-collections" % "0.2.0"
   lazy val rhino                  = "org.mozilla"                % "rhino"              % "1.7.10"
   lazy val scala_parser           = "org.scala-lang.modules"     %% "scala-parser-combinators" % "1.1.2"
-  lazy val xerces                 = "xerces" % "xercesImpl" % "2.11.0"
+  lazy val xerces                 = "xerces" % "xercesImpl" % "2.12.2"
 
   // Aliases
   lazy val mongo_driver = mongo_java_driver
