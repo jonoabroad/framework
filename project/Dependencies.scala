@@ -21,7 +21,7 @@ object Dependencies {
 
   type ModuleMap = String => ModuleID
 
-  lazy val slf4jVersion = "1.7.25"
+  lazy val slf4jVersion = "1.7.36"
 
   // Compile scope:
   // Scope available in all classpath, transitive by default.
