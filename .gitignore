@@ -72,3 +72,4 @@ node_modules
 
 # VSCode
 .vscode
+.bsp/sbt.json
